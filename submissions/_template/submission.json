@@ -1,22 +1,22 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "project": {
-    "title": "Project Title Here",
-    "slug": "project-slug-here",
-    "short_description": "Brief description of the project.",
-    "category": "AI / RAG / Data Engineering / Analytics",
+    "title": "ExpiryWise AI",
+    "slug": "expirywise-ai",
+    "short_description": "An AI-powered food inventory management system that tracks expiry dates, predicts usage patterns, identifies surplus stock, and recommends actions to reduce food waste in college canteens.",
+    "category": "AI / RAG / Analytics",
     "demo_url": "",
     "video_url": "",
-    "repo_url": ""
+    "repo_url": "https://github.com/bhoomi12er-oss/IBM_Db2_TechX_Project_Submission"
   },
   "team": {
-    "name": "Team Name Here",
+    "name": "ExpiryWise AI",
     "members": [
       {
-        "name": "Full Name",
-        "github": "github-username",
-        "email": "user@example.com",
-        "role": "Backend / AI Developer"
+        "name": "Bhoomi Kumari",
+        "github": "bhoomi12er-oss",
+        "email": "",
+        "role": "Full Stack / AI Developer"
       }
     ]
   },
@@ -25,13 +25,12 @@
     "connector": "ibm_db / SQLAlchemy",
     "features_used": [
       "Relational Tables",
-      "Indexing",
-      "Vector / JSON Search"
+      "Indexing"
     ]
   },
   "tech_stack": {
-    "languages": ["Python", "JavaScript"],
-    "frameworks": ["FastAPI", "React", "LangChain"],
-    "ai_models": ["watsonx.ai Granite", "OpenAI GPT-4o"]
+    "languages": ["Python"],
+    "frameworks": ["Streamlit", "LangChain"],
+    "ai_models": []
   }
 }
